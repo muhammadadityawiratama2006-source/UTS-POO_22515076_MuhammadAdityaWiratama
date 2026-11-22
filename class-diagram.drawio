@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Halaman-1" id="XHO43AHrRYBxcFpY9dbZ">
+    <mxGraphModel dx="1381" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Servis" vertex="1">
+          <mxGeometry height="270" width="400" x="-120" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-2" parent="XTudSqtpNMKJ4JSMw2_B-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span&gt;&lt;code&gt;-kodeServis:String&lt;/code&gt;,&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;code&gt;-kendaraan:Kendaraan&lt;/code&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;-mekanik:Mekanik&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;-biayaJasa:double&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;-biayaSukuCadang:double&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;/span&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;-statusServis:String&lt;/code&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="400" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-3" parent="XTudSqtpNMKJ4JSMw2_B-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="400" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-4" parent="XTudSqtpNMKJ4JSMw2_B-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span&gt;&lt;code&gt;+Servis()&lt;/code&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;code&gt;+ Servis(kodeServis:String,kendaraan: Kendaraan, mekanik: Mekanik, biayaJasa: double, biayaSukuCadang: double)&lt;/code&gt;,&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;code&gt;+ hitungTotalBiaya():double&lt;/code&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;code&gt;+prosesServis(): void&lt;/code&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;code&gt;+selesaikanServis():void&lt;/code&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;code&gt;+tampilkanDetailServis():void&lt;/code&gt;&lt;/span&gt;&lt;span class=&quot;&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="132" width="400" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Kendaraan" vertex="1">
+          <mxGeometry height="238" width="320" x="-640" y="-680" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-10" parent="XTudSqtpNMKJ4JSMw2_B-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span&gt;&lt;code&gt;-platNomor:String&lt;/code&gt;,&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;code&gt;-merkTipe:String&lt;/code&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;code&gt;-tahunProduksi:int&lt;/code&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;code&gt;-sedangDiservis:boolean&lt;/code&gt;&lt;/span&gt;&lt;span class=&quot;&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="320" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-11" parent="XTudSqtpNMKJ4JSMw2_B-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="320" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-12" parent="XTudSqtpNMKJ4JSMw2_B-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;code&gt;+Kendaraan()&lt;/code&gt;&lt;div&gt;&lt;code&gt;+Kendaraan(platNomor:String,merkTipe:String, tahunProduksi:int)&lt;/code&gt;,&lt;div&gt;&lt;code&gt;+tampilkanInfo():void&lt;/code&gt;,&lt;/div&gt;&lt;div&gt;&lt;code&gt;+ubahStatusServis(status:boolean):void,&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;+isSiapServis():boolean&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="320" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-69" edge="1" parent="1" source="XTudSqtpNMKJ4JSMw2_B-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="XTudSqtpNMKJ4JSMw2_B-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-70" edge="1" parent="1" source="XTudSqtpNMKJ4JSMw2_B-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startArrow=none;startFill=0;endArrow=classic;endFill=1;" target="XTudSqtpNMKJ4JSMw2_B-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-17" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Bengkel" vertex="1">
+          <mxGeometry height="270" width="400" x="-160" y="-1120" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-18" parent="XTudSqtpNMKJ4JSMw2_B-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;monospace&quot;&gt;-namaBengkel:String,&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;-daftarKendaraan:ArrayList&amp;lt;Kendaraan&amp;gt;,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;-daftarMekanik:ArrayList&amp;lt;Mekanik&amp;gt;,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;-riwayatServis:ArrayList&amp;lt;Servis&amp;gt;,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;-antreanServis:AntreanServisQueue&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="400" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-19" parent="XTudSqtpNMKJ4JSMw2_B-17" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="400" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-20" parent="XTudSqtpNMKJ4JSMw2_B-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;+ Bengkel()&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;+ Bengkel(namaBengkel: String, kapasitasAntrean: int)&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;+ tambahKendaraan(k: Kendaraan): void&lt;/code&gt;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;code&gt;+ tambahMekanik(m: Mekanik): void&lt;/code&gt;,&lt;/div&gt;&lt;div&gt;&lt;code&gt;+ daftarkanServis(s: Servis): boolean&lt;/code&gt;,&lt;/div&gt;&lt;div&gt;&lt;code&gt;+ prosesServisBerikutnya(): Servis&lt;/code&gt;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;code&gt;+ selesaikanServis(kodeServis: String): boolean&lt;/code&gt;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;code&gt;+ cariData(kataKunci: String): void&lt;/code&gt;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;code&gt;+ tampilkanRingkasan(): void&lt;/code&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="400" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-62" edge="1" parent="1" source="XTudSqtpNMKJ4JSMw2_B-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="XTudSqtpNMKJ4JSMw2_B-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-21" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Main" vertex="1">
+          <mxGeometry height="130" width="190" x="-640" y="-1120" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-22" parent="XTudSqtpNMKJ4JSMw2_B-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- bengkel:Bengkel&amp;nbsp;&lt;div&gt;-scanner:Scanner&lt;/div&gt;" vertex="1">
+          <mxGeometry height="36.5" width="190" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-23" parent="XTudSqtpNMKJ4JSMw2_B-21" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="21" width="190" y="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-24" parent="XTudSqtpNMKJ4JSMw2_B-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;code&gt;+ main(args: String[])void&lt;/code&gt;&lt;div&gt;&lt;code&gt;+ tampilkanMenu(): void&lt;/code&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46.5" width="190" y="83.5" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-38" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="AntreanServisQueue" vertex="1">
+          <mxGeometry height="260" width="320" x="320" y="-680" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-39" parent="XTudSqtpNMKJ4JSMw2_B-38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;code&gt;- elemen: Servis[]&lt;/code&gt;,&amp;nbsp;&lt;div&gt;&lt;code&gt;- front: int&lt;/code&gt;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;code&gt;- rear: int&lt;/code&gt;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;code&gt;- jumlah: int&lt;/code&gt;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;code&gt;- kapasitas: int&lt;/code&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="320" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-40" parent="XTudSqtpNMKJ4JSMw2_B-38" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="320" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-41" parent="XTudSqtpNMKJ4JSMw2_B-38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;code&gt;+AntreanServisQueue(kapasitas:int),&amp;nbsp;&lt;/code&gt;&lt;div&gt;&lt;code&gt;+ enqueue(data: Servis):boolean&lt;/code&gt;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;code&gt;+ dequeue(): Servis&lt;/code&gt;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;code&gt;+ front(): Servis&lt;/code&gt;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;code&gt;+ isEmpty(): boolean&lt;/code&gt;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;code&gt;+ isFull(): boolean&lt;/code&gt;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;code&gt;+ size(): int&lt;/code&gt;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;code&gt;+ tampilkanAntrean(): void&lt;/code&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="320" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-49" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Mekanik" vertex="1">
+          <mxGeometry height="210" width="360" x="360" y="-1120" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-50" parent="XTudSqtpNMKJ4JSMw2_B-49" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span&gt;&lt;code&gt;-idMekanik:String&lt;/code&gt;,&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;code&gt;-namaMekanik:String&lt;/code&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;code&gt;-spesialisasi:String&lt;/code&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;code&gt;-sedangBertugas:boolean&lt;/code&gt;&lt;/span&gt;&lt;span class=&quot;&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="360" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-51" parent="XTudSqtpNMKJ4JSMw2_B-49" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="12" width="360" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-52" parent="XTudSqtpNMKJ4JSMw2_B-49" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;code&gt;+Mekanik()&lt;/code&gt;,&lt;div&gt;&lt;code&gt;+Mekanik(idMekanik: String,namaMekanik:String, spesialisasi: String)&lt;/code&gt;,&lt;/div&gt;&lt;div&gt;&lt;code&gt;+tampilkanInfo():void&lt;/code&gt;,&lt;/div&gt;&lt;div&gt;&lt;code&gt;+tugaskanServis():void&lt;/code&gt;,&lt;/div&gt;&lt;div&gt;&lt;code&gt;+&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;selesaikanTugas(): void&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="98" width="360" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-65" edge="1" parent="1" source="XTudSqtpNMKJ4JSMw2_B-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.987;entryY=0.478;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="XTudSqtpNMKJ4JSMw2_B-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-68" edge="1" parent="1" source="XTudSqtpNMKJ4JSMw2_B-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.459;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="XTudSqtpNMKJ4JSMw2_B-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0" vertex="1">
+          <mxGeometry height="30" width="60" x="-310" y="-660" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0" vertex="1">
+          <mxGeometry height="30" width="60" x="-60" y="-660" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="310" y="-1110" as="geometry" />
+        </mxCell>
+        <mxCell id="XTudSqtpNMKJ4JSMw2_B-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="350" y="-740" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
